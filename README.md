@@ -28,7 +28,7 @@ To run this project locally:
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/dictionary-app.git
+   git clone https://github.com/areebch-dev/Dictionary-Web-App.git
    
 2. Open index.html in your preferred browser
   ```bash
