@@ -1,0 +1,139 @@
+:root{
+
+    --bgc: #027171;
+    --hover: #008080;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background: #f3f6fa;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  background: var(--bgc);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+form input {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+  transition: 0.3s ease;
+}
+
+form input:focus {
+  border-color: var(--bgc);
+  outline: none;
+}
+
+form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: var(--bgc);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: var(--hover);
+}
+
+#result {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+  background: var(--bgc);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+  font-size: 0.9rem;
+}
+
+
+.dictionary-card {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.dictionary-card h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.dictionary-card p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.dictionary-card b {
+  color: var(--hover);
+}
+
+.dictionary-card a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  text-decoration: none;
+  background: var(--bgc);
+  color: white;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+
+.dictionary-card a:hover {
+  background: var(--hover);
+}
+
